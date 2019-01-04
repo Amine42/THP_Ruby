@@ -1,7 +1,6 @@
-puts "Bonjour, entrez votre annee de naissance"
+puts "Bonjour, entrez votre age"
 print "> "
-user_year_birth = gets.chomp.to_i
-age = -1
-for year in user_year_birth..2017
-    puts "Il y a #{2017 - year} ans, tu avais #{age += 1}ans"
+user_age = gets.chomp.to_i
+for i in 1..user_age
+    puts "il y a #{i}ans tu avait #{user_age - i} ans"
 end

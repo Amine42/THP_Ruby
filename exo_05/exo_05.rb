@@ -3,7 +3,7 @@
 
 puts "On va compter le nombre d'heures de travail à THP" #Cette ligne affiche une chaine de caractere 
 puts "Travail : #{10 * 5 * 11}" # Le programme calcule 10 * 5 * 11, le resultat du calcule qui est fait a l'interieur du #{} est inserer dans la chaine de caractere, cette chaine de caractere sera ensuite afficher par puts suivi d'un retour a la ligne (puts)
-puts "En minutes ça fait : #{10 * 5 * 11 * 60}" # cette ligne affiche une string, dans cette meme string il y a une string interpolaation qui affiche le resultat du calcule 10 * 5 * 11 * 60
+puts "En minutes ça fait : #{10 * 5 * 11 * 60}" # cette ligne affiche une string, dans cette meme string il y a une string interpolation qui affiche le resultat du calcule 10 * 5 * 11 * 60
 
 puts "Et en secondes ?" # affiche une string
 

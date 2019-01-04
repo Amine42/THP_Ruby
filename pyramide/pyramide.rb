@@ -14,6 +14,8 @@ else
             print "#"
         end
         i += 1
-        print "\n"
+        if nb != user_nb
+            print "\n"
+        end
     end
 end

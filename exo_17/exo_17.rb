@@ -1,11 +1,10 @@
-puts "Bonjour, entrez votre annee de naissance"
+puts "Bonjour, entrez votre age"
 print "> "
-user_year_birth = gets.chomp.to_i
-age = -1
-for year in user_year_birth..2017
-    if (2017 - year) == (age + 1)
-        puts "Il y a #{2017 - year} ans, tu avais la moitié de l'age que tu as aujourd'hui"
+user_age = gets.chomp.to_i
+for i in 1..user_age
+    if (user_age - i) == i
+        puts "il y a #{i} ans, tu avais la moitié de l'age que tu as aujourd'hui"
     else
-        puts "Il y a #{2017 - year} ans, tu avais #{age += 1}ans"
+        puts "il y a #{i}ans tu avait #{user_age - i} ans"
     end
 end
